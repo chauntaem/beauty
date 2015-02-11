@@ -1,0 +1,24 @@
+<h1>Welcome to My Beauty Page</h1>
+<p>This is my very awesome make up and beauty site</p>
+
+
+<% @beauty_pics.each do |pic| %>
+	<li><%= pic %>
+ <% end %>
+ 	</li>
+
+<%= image_tag "all.jpg", alt: "Sephora Full Face",
+                          id: "sephora",
+                          class: "full face" %>
+
+<%= image_tag "blush.jpg", alt: "blush",
+                          id: "sephora",
+                          class: "full face" %>
+
+<%= image_tag "lips.jpg", alt: "Sephora Full Face",
+                          id: "sephora",
+                          class: "lips" %>
+
+<%= image_tag "eyeshadow.jpg", alt: "eyeshadow",
+                          id: "sephora",
+                          class: "full face" %>
